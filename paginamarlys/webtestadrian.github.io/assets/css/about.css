@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* navbar*/
+
+html {
+  scroll-behavior: smooth;
+}
+.navbar-logo{
+    margin-left:3rem;
+  }
+  
+.cinta{
+    height:2.9rem;
+    background-color:#fcb900;
+    text-align: center;
+}
+
+#link1 {
+  color: black; /* Cambia el color del texto del enlace a negro */
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+.cinta span {
+  margin-right: 4rem;
+}
+
+#iconoslink1{
+    margin-left: 48rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    gap: 5rem;
+}
+#iconoslink2{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: black;
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+    outline: none; /* Elimina el borde alrededor del enlace cuando está enfocado */
+}
+#iconoslink3{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: black;
+}
+
+img{
+    height:7rem;
+}
+
+.container-fluid{
+    font-size: 1.5rem;
+}
+
+  .navbar{
+   
+   border-bottom: 1px groove;
+   width: 100%;
+   
+  }
+
+  .nav-link{
+    margin-right:3.5rem;
+  }
+
+  .nav-item{
+    font-size: 1.4rem;
+  }
+
+ /* formulario*/
+.formulario{
+    width: 100%;
+    display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 90vh; 
+  padding: 10rem;
+}
+
+
+
+.formulario-top{
+    border-bottom: 1px groove; /* Borde en la parte inferior */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+
+  .formulario1{
+    border: 1px groove; /* Ancho del borde, tipo y color */
+    padding: 10px; /* Espacio interno alrededor del contenido */
+    height: 45rem;
+    width: 60rem;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+  }
+  
+  .formulario-body h3{
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  .formulario-body p{
+    text-align: center;
+  }
+  
+.btn1{
+    align-items: center;
+    padding: 1rem ;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+      .parrafo2{
+        width:80rem;
+      }
+    
+      .cinta4{
+        height: 24rem;
+      }
+    
+
+    .cinta{
+      width: 100%;
+    }
+    
+    #iconoslink1{
+      margin-left: 1rem;
+    }
+    
+    .cinta4{
+      margin: 14rem;
+      justify-content: center;
+    }
+}
